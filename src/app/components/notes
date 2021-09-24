@@ -1,0 +1,9 @@
+npm json server used
+
+angular cli
+bootstrap
+angular material
+
+for server
+json-server --watch db.json
+

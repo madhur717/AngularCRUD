@@ -1,0 +1,48 @@
+{
+  "posts": [
+    {
+      "id": 12,
+      "firstName": "anil ",
+      "lastName": "kapoor",
+      "email": "ani@kapoor.com",
+      "mobile": "7564646574",
+      "salary": "74000"
+    },
+    {
+      "id": 13,
+      "firstName": "madhur",
+      "lastName": "tajane",
+      "email": "madhurtajane@gmail.com",
+      "mobile": "8983237503",
+      "salary": "340000"
+    },
+    {
+      "id": 14,
+      "firstName": "hello ",
+      "lastName": "world",
+      "email": "hello@world.com",
+      "mobile": "484756778",
+      "salary": "230042"
+    },
+    {
+      "id": 15,
+      "firstName": "dfsdfs",
+      "lastName": "sdfsdf",
+      "email": "sdfs",
+      "mobile": "34534",
+      "salary": "4554"
+    },
+    {
+      "id": 6,
+      "firstName": "virat",
+      "lastName": "kohli",
+      "email": "virat@kohli.com",
+      "mobile": "243583746",
+      "salary": "299587"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
