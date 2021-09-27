@@ -21,6 +21,9 @@ import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatTableModule } from '@angular/material/table';
+import { HomeComponent } from './components/home/home.component';
+
 
 
 
@@ -36,7 +39,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     CommentsComponent,
     ProductComponent,
     ProductCardComponent,
-    LoginComponent
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -51,6 +55,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     MatButtonModule,
     MatCardModule,
     MatToolbarModule,
+    MatTableModule,
 
     
   ],

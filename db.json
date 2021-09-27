@@ -6,7 +6,7 @@
       "lastName": "kapoor",
       "email": "ani@kapoor.com",
       "mobile": "7564646574",
-      "salary": "74000"
+      "salary": "740004"
     },
     {
       "id": 13,
@@ -25,20 +25,20 @@
       "salary": "230042"
     },
     {
-      "id": 15,
-      "firstName": "dfsdfs",
-      "lastName": "sdfsdf",
-      "email": "sdfs",
-      "mobile": "34534",
-      "salary": "4554"
-    },
-    {
       "id": 6,
       "firstName": "virat",
       "lastName": "kohli",
       "email": "virat@kohli.com",
       "mobile": "243583746",
       "salary": "299587"
+    },
+    {
+      "id": 16,
+      "firstName": "jhony",
+      "lastName": "deph",
+      "email": "jhony@deph.com",
+      "mobile": "221388458478",
+      "salary": "94597977"
     }
   ],
   "comments": [],
