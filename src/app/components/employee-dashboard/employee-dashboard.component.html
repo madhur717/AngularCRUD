@@ -1,10 +1,12 @@
-<nav class="navbar navbar-light bg-dark">
+<div class="container-fluid">
+
+<nav class="navbar navbar-light bg-light">
     <div class="container-fluid">
-        <h1 style="color:aliceblue">AngularCRUD</h1>
+        <h1 style="color:rgb(26, 87, 141)">AngularCRUD</h1>
 
         <div class="d-flex">
             <button (click)="clickAddEmploye()" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                class="btn btn-success">Add
+                class="btn btn-primary">Add
                 Employees</button>
         </div>
 
@@ -12,8 +14,7 @@
 </nav>
 
 
-
-<table class="table">
+<table class="table table-bordered">
     <thead>
         <tr>
             <th scope="col">Sr No</th>
@@ -37,14 +38,14 @@
             <td>{{row.salary}}</td>
 
             <td>
-                <button (click)="onEdit(row)" style="color: rgb(0, 4, 8);" type="button" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal" class="btn btn-info">Edit</button>
-                <button (click)="deleteEmployee(row)" class="btn btn-danger mx-3">Delete</button>
+                <button (click)="onEdit(row)" style="color: rgb(255, 255, 255);" type="button" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal" class="btn btn-success">Edit</button>
+                <button (click)="deleteEmployee(row)" class="btn btn-outline-danger mx-3">Delete</button>
             </td>
         </tr>
     </tbody>
 </table>
-
+</div>
 
 
 <!-- Modal- add employee fill form -->

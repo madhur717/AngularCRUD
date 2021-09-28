@@ -24,6 +24,11 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTableModule } from '@angular/material/table';
 import { HomeComponent } from './components/home/home.component';
 
+import { MatSliderModule } from '@angular/material/slider';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
+
+
+
 
 
 
@@ -56,6 +61,8 @@ import { HomeComponent } from './components/home/home.component';
     MatCardModule,
     MatToolbarModule,
     MatTableModule,
+    MatSliderModule,
+    MatProgressBarModule
 
     
   ],
